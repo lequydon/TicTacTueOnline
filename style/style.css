@@ -1,0 +1,45 @@
+.content{
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+    width: 50em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+.content__infoGame{
+    display: flex;
+    justify-content: center;
+}
+.content__playGame{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 30em;
+    margin: 0 auto;
+}
+.content__setX{
+    margin-right: 5em;
+    display: flex;
+    align-items: center;
+}
+.content__setO{
+    display: flex;
+    align-items: center;
+}
+.content__infoGame div img{
+    margin-right: 1em;
+    height: 2.5em;
+}
+.content__playGame{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.content__box{
+    border: 1px solid #ccc;
+    height: 10em;
+    width:10em;
+}
+.content__resetGame div:hover{
+    color: blue;
+    cursor: pointer;
+}

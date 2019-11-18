@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries-->
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+    <script src='script/style.js'></script>
+</head>
+<body style="font-family: 'Varela Round', sans-serif;">
+    <div class="content">
+        <div class="content__infoGame">
+            <div class="content__setX">
+                <img src="image/x.png">
+                <span>Điểm:</span><span class="content--point" id="pointX">0</span>
+            </div>
+            <div class="content__setO">
+                <img src="image/o.png">
+                <span>Điểm:</span><span class="content--point" id="pointO">0</span>
+            </div>
+        </div>
+        <div class="content__playGame">
+            <div class="content__box" id="1"></div>
+            <div class="content__box" id="2"></div>
+            <div class="content__box" id="3"></div>
+            <div class="content__box" id="4"></div>
+            <div class="content__box" id="5"></div>
+            <div class="content__box" id="6"></div>
+            <div class="content__box" id="7"></div>
+            <div class="content__box" id="8"></div>
+            <div class="content__box" id="9"></div>
+        </div>
+        <div class="content__resetGame">
+            <div>Khởi động lại trò chơi</div> 
+        </div>
+    </div>
+</body>
+</html>
